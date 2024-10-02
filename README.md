@@ -44,8 +44,8 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
      - Visual Studio IntelliCode
 
 
-### Create New Project
-## 2. Membuat Proyek Java Baru
+## Create New Project
+### Membuat Proyek Java Baru
 1. **Buka VS Code**.
    
 2. Tekan **`CTRL + SHIFT + P`** untuk membuka **Command Palette**. Akan muncul menu seperti gambar di bawah ini:
