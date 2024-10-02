@@ -17,6 +17,8 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
+---
+
 ## How To Create New Project On VSCODE
 
 ### Persiapan Awal
@@ -43,6 +45,30 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 
 ### Create New Project
-1. **Open vscode**
-   - Ketik `CTRL+SHIFT+P`
-   - cari `>Java:Create Java Project`
+## 2. Membuat Proyek Java Baru
+1. **Buka VS Code**.
+   
+2. Tekan **`CTRL + SHIFT + P`** untuk membuka **Command Palette**. Akan muncul menu seperti gambar di bawah ini:
+
+   ![Langkah 1 - Command Palette](./pic/1.png)
+
+3. Ketik dan pilih **Java: Create Java Project...**.
+
+4. **Pilih tipe proyek** yang ingin dibuat. Kamu akan diberi pilihan beberapa build tools seperti:
+   - No build tools (Proyek tanpa build tools)
+   - Maven
+   - Gradle
+   - Spring Boot
+   - JavaFX, dan lain-lain.
+
+   Pilih sesuai kebutuhanmu. Misalnya, pilih **No build tools** jika tidak memerlukan tools seperti Maven atau Gradle.
+
+   ![Langkah 2 - Pilih Build Tool](./pic/2.png)
+
+5. **Pilih folder** tempat kamu ingin menyimpan proyek. Kamu bisa memilih folder yang sudah ada atau membuat folder baru.
+
+   ![Langkah 3 - Pilih Folder](./pic/3.png)
+
+6. **Masukkan nama proyek** Java kamu. Setelah mengetik nama proyek, tekan `Enter` untuk konfirmasi.
+
+   ![Langkah 4 - Masukkan Nama Proyek](./pic/4.png)
