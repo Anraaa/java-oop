@@ -19,7 +19,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ---
 
-## How To Create New Project On VSCODE
+## How To Create New Project On vscode
 
 ### Persiapan Awal
 1. **Install Java Development Kit (JDK)**
