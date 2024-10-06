@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "program1",
+            "request": "launch",
+            "mainClass": "praktikum.sesi1.program1",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "program",
+            "request": "launch",
+            "mainClass": "praktikum.sesi1.program",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
             "name": "OperatorLogika",
             "request": "launch",
             "mainClass": "praktikum.sesi3.OperatorLogika",
