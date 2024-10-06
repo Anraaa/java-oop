@@ -2,6 +2,9 @@ package praktikum.sesi1;
 
 import java.util.Scanner;
 
+// Aqla Harun Ramadhani Johananda - 20230801388
+// Praktikum Sesi 1
+
 public class program {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
