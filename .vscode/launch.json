@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClassBintangFilm",
+            "request": "launch",
+            "mainClass": "praktikum.sesi5.ClassBintangFilm",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
             "name": "ClassMobil",
             "request": "launch",
             "mainClass": "praktikum.sesi5.ClassMobil",
