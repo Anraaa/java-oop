@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClassMobil",
+            "request": "launch",
+            "mainClass": "praktikum.sesi5.ClassMobil",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "program3",
+            "request": "launch",
+            "mainClass": "praktikum.quiz.program3",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "program2",
+            "request": "launch",
+            "mainClass": "praktikum.quiz.program2",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "program",
+            "request": "launch",
+            "mainClass": "praktikum.quiz.program",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "MenuProgram",
+            "request": "launch",
+            "mainClass": "praktikum.sesi3.MenuProgram",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "program1",
+            "request": "launch",
+            "mainClass": "praktikum.sesi3.program1",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "program",
+            "request": "launch",
+            "mainClass": "praktikum.sesi2.program",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "Hadiah",
+            "request": "launch",
+            "mainClass": "praktikum.sesi4.Hadiah",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "CekKelulusan",
+            "request": "launch",
+            "mainClass": "praktikum.sesi4.CekKelulusan",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
             "name": "program1",
             "request": "launch",
             "mainClass": "praktikum.sesi1.program1",
