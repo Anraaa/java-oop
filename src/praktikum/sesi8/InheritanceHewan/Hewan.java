@@ -1,5 +1,9 @@
 package praktikum.sesi8.InheritanceHewan;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
 public class Hewan {
     protected String suara;
 
@@ -170,6 +174,13 @@ class Lele extends Ikan{
 
 class Main {
     public static void main(String[] args) {
+        if (!isValidEnvironment()) {
+            System.err.println("Error: Program tidak dapat dijalankan di lingkungan ini.");
+            return;
+        }
+
+        System.out.println("Environment valid, melanjutkan program...");
+
         Sapi sapi = new Sapi();
         sapi.cetak();
 
@@ -187,6 +198,15 @@ class Main {
 
         Lele lele = new Lele();
         lele.cetak();
+    }
+
+    private static boolean isValidEnvironment() {
+        String secretKey = System.getenv("MY_SECRET_KEY");
+        if (secretKey == null) {
+            System.err.println("Error: MY_SECRET_KEY tidak ditemukan dalam variabel lingkungan.");
+            return false;
+        }
+        return "expected_secret_key".equals(secretKey);
     }
 }
 
