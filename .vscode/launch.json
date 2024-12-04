@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "praktikum.sesi8.InheritanceHewan.Main",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "praktikum.sesi10.Main",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "MobilCek",
+            "request": "launch",
+            "mainClass": "praktikum.sesi7.MobilCek",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "SiswaTester",
+            "request": "launch",
+            "mainClass": "praktikum.sesi7.SiswaTester",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "MhsTester",
+            "request": "launch",
+            "mainClass": "praktikum.sesi7.MhsTester",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "program",
+            "request": "launch",
+            "mainClass": "praktikum.sesi4.program",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
             "name": "ClassBintangFilm",
             "request": "launch",
             "mainClass": "praktikum.sesi5.ClassBintangFilm",
