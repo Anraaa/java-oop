@@ -1,4 +1,4 @@
-package praktikum.sesi10.polimorfisme;
+package praktikum.sesi10;
 
 // Interfaces
 interface Mouse {

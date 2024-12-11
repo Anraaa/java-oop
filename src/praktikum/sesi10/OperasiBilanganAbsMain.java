@@ -1,4 +1,4 @@
-package praktikum.sesi10.polimorfisme;
+package praktikum.sesi10;
 
 abstract class OperasiBilanganAbs {
     protected double a, b, c;
