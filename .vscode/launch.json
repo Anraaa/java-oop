@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MouseMain",
+            "request": "launch",
+            "mainClass": "praktikum.sesi10.polimorfisme.MouseMain",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "Mouse",
+            "request": "launch",
+            "mainClass": "praktikum.sesi10.polimorfisme.Mouse",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "KomputerMain",
+            "request": "launch",
+            "mainClass": "praktikum.sesi10.polimorfisme.KomputerMain",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "Komputer",
+            "request": "launch",
+            "mainClass": "praktikum.sesi10.polimorfisme.Komputer",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "praktikum.sesi10.polimorfisme.Main",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "AnimalTester",
+            "request": "launch",
+            "mainClass": "praktikum.sesi9.animal.AnimalTester",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "praktikum.sesi9.pegawai.Main",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "FranchiseMakanan",
+            "request": "launch",
+            "mainClass": "praktikum.sesi9.pegawai.FranchiseMakanan",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "praktikum.sesi8.InheritanceBangunDatar.Main",
+            "projectName": "JAVA-OOP_3b20fe26"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "praktikum.sesi8.InheritanceHewan.Main",
