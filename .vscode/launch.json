@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Soal4",
+            "request": "launch",
+            "mainClass": "praktikum.sesi12.Soal4",
+            "projectName": "java-oop_f11b780e"
+        },
+        {
+            "type": "java",
+            "name": "Soal3",
+            "request": "launch",
+            "mainClass": "praktikum.sesi12.Soal3",
+            "projectName": "java-oop_f11b780e"
+        },
+        {
+            "type": "java",
+            "name": "Soal1",
+            "request": "launch",
+            "mainClass": "praktikum.sesi12.Soal1",
+            "projectName": "java-oop_f11b780e"
+        },
+        {
+            "type": "java",
+            "name": "soal3",
+            "request": "launch",
+            "mainClass": "praktikum.sesi12.soal3",
+            "projectName": "java-oop_f11b780e"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "praktikum.sesi12.Main",
+            "projectName": "java-oop_f11b780e"
+        },
+        {
+            "type": "java",
+            "name": "Soal2",
+            "request": "launch",
+            "mainClass": "praktikum.sesi12.Soal2",
+            "projectName": "java-oop_f11b780e"
+        },
+        {
+            "type": "java",
             "name": "OperasiBilanganAbsMain",
             "request": "launch",
             "mainClass": "praktikum.sesi10.polimorfisme.OperasiBilanganAbsMain",
