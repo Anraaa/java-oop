@@ -1,0 +1,25 @@
+@startuml
+interface Playable {
+    + play()
+    + pause()
+}
+
+class VideoGame {
+    - title: String
+    - platform: String
+    + VideoGame(title: String, platform: String)
+    + play()
+    + pause()
+}
+
+class BoardGame {
+    - name: String
+    - numberOfPlayers: int
+    + BoardGame(name: String, numberOfPlayers: int)
+    + play()
+    + pause()
+}
+
+Playable <|.. VideoGame
+Playable <|.. BoardGame
+@enduml

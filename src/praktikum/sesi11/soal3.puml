@@ -1,0 +1,22 @@
+@startuml
+abstract class Game {
+    - title: String
+    + Game(title: String)
+    + startGame()
+}
+
+class RPGGame {
+    - level: int
+    + RPGGame(title: String, level: int)
+    + startGame()
+}
+
+class FPSGame {
+    - weapons: String[]
+    + FPSGame(title: String, weapons: String[])
+    + startGame()
+}
+
+Game <|-- RPGGame
+Game <|-- FPSGame
+@enduml
