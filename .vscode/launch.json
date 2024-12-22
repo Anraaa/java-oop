@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SimpleCalculator",
+            "request": "launch",
+            "mainClass": "praktikum.project.SimpleCalculator",
+            "projectName": "java-oop_615c8192"
+        },
+        {
+            "type": "java",
+            "name": "NoteAppFrame",
+            "request": "launch",
+            "mainClass": "praktikum.project.NoteAppFrame",
+            "projectName": "java-oop_615c8192"
+        },
+        {
+            "type": "java",
             "name": "Soal4",
             "request": "launch",
             "mainClass": "praktikum.sesi12.Soal4",
