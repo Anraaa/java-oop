@@ -1,74 +1,64 @@
-## Getting Started
+# Java OOP - Praktikum Semester 3
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Kumpulan program Java untuk praktikum **Object-Oriented Programming (OOP)** semester 3.
 
-## Folder Structure
+**Author:** Aqla Harun Ramadhani Johananda — NIM: 20230801388
 
-The workspace contains two folders by default, where:
+## Struktur Proyek
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+```
+src/praktikum/
+├── sesi1/         # Dasar Java — kalkulator sederhana
+├── sesi2/         # Tipe data, operator, kontrol alur
+├── sesi3/         # Operator aritmatika, relasi, logika
+├── sesi4/         # Class & Object — Mahasiswa + revisi program sesi2
+├── sesi5/         # Quiz — perulangan dan kondisi
+├── sesi6/         # Encapsulation — BintangFilm, Mobil
+├── sesi7/         # Access modifiers, getter/setter
+├── sesi8/         # Inheritance — BangunDatar & Hewan
+├── sesi9/         # Polymorphism — Animal, Vehicle, Pegawai
+├── sesi10/        # Abstract class, Interface, Overloading/Overriding
+├── sesi11/        # Final/Static, Multiple Interface, Game
+├── sesi12/        # OOP Komprehensif — Dosen, Gojek, Phone, Animal
+└── project/       # SimpleCalculator (GUI Swing)
+```
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Topik per Sesi
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+| Sesi | Topik |
+|------|-------|
+| 1 | Input/output dasar, kalkulator CLI |
+| 2 | Tipe data, if-else/switch, perulangan, array |
+| 3 | Operator aritmatika, relasi, logika (short-circuit) |
+| 4 | Pengenalan class, constructor, method |
+| 5 | Latihan perulangan dan percabangan |
+| 6 | Enkapsulasi — `private` fields, getter methods |
+| 7 | Access modifier (`public`/`protected`/`private`), validasi |
+| 8 | Inheritance — `extends`, `super`, method overriding |
+| 9 | Polymorphism — `@Override`, dynamic method dispatch |
+| 10 | Abstract class, Interface, overloading vs overriding |
+| 11 | `final`, `static`, multiple interface, abstract + interface |
+| 12 | Studi kasus OOP: universitas, ojek online, phone, animal |
 
-## Dependency Management
+## Cara Menjalankan
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Program dapat dijalankan melalui **VS Code** (konfigurasi `launch.json` sudah tersedia) atau via terminal:
 
----
+```bash
+# Compile
+javac -d bin src/praktikum/sesi<N>/<file>.java
 
-## How To Create New Project On vscode
+# Run
+java -cp bin praktikum.sesi<N>.<class>
+```
 
-### Persiapan Awal
-1. **Install Java Development Kit (JDK)**
-   - Pastikan kamu sudah menginstal **JDK** di komputer. Kamu bisa download JDK melalui tautan berikut:
-     - [Download JDK](https://www.oracle.com/java/technologies/javase-downloads.html) atau [OpenJDK](https://openjdk.java.net/).
-   - Pastikan Java sudah terpasang dengan menjalankan perintah berikut di terminal atau Command Prompt:
-     ```bash
-     java -version
-     ```
+Contoh:
+```bash
+javac -d bin src/praktikum/sesi12/Soal1.java
+java -cp bin praktikum.sesi12.Soal1
+```
 
-2. **Install Visual Studio Code (VS Code)**
-   - Download dan install **VS Code** melalui tautan berikut:
-     - [Download VS Code](https://code.visualstudio.com/).
+## Tools
 
-3. **Install Ekstensi Java di VS Code**
-   - Buka VS Code, lalu buka **Extensions** (ikon kotak di sisi kiri atau tekan `Ctrl+Shift+X`).
-   - Cari **"Java Extension Pack"** dan klik **Install**. Paket ini akan menginstal beberapa ekstensi yang diperlukan untuk pengembangan Java di VS Code:
-     - Language Support for Java(TM) by Red Hat
-     - Debugger for Java
-     - Java Test Runner
-     - Maven for Java
-     - Visual Studio IntelliCode
-
-
-## Create New Project
-### Membuat Proyek Java Baru
-1. **Buka VS Code**.
-   
-2. Tekan **`CTRL + SHIFT + P`** untuk membuka **Command Palette**. Akan muncul menu seperti gambar di bawah ini:
-
-   ![Langkah 1 - Command Palette](./pic/1.png)
-
-3. Ketik dan pilih **Java: Create Java Project...**.
-
-4. **Pilih tipe proyek** yang ingin dibuat. Kamu akan diberi pilihan beberapa build tools seperti:
-   - No build tools (Proyek tanpa build tools)
-   - Maven
-   - Gradle
-   - Spring Boot
-   - JavaFX, dan lain-lain.
-
-   Pilih sesuai kebutuhanmu. Misalnya, pilih **No build tools** jika tidak memerlukan tools seperti Maven atau Gradle.
-
-   ![Langkah 2 - Pilih Build Tool](./pic/2.png)
-
-5. **Pilih folder** tempat kamu ingin menyimpan proyek. Kamu bisa memilih folder yang sudah ada atau membuat folder baru.
-
-   ![Langkah 3 - Pilih Folder](./pic/3.png)
-
-6. **Masukkan nama proyek** Java kamu. Setelah mengetik nama proyek, tekan `Enter` untuk konfirmasi.
-
-   ![Langkah 4 - Masukkan Nama Proyek](./pic/4.png)
+- **Java** — standar library (tanpa Maven/Gradle)
+- **VS Code** — dengan Java Extension Pack
